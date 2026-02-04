@@ -20,7 +20,7 @@ key = os.getenv("OPENAI_API_KEY")
 
 print("Value of MY_VARIABLE:", key)
 
-llm = ChatOpenAI(openai_api_key=key,model_name="gpt-3.5-turbo", temperature=0.3)
+llm = ChatOpenAI(OPENAI_API_KEY=key,model_name="gpt-3.5-turbo", temperature=0.3)
 
 template="""
 Text:{text}
