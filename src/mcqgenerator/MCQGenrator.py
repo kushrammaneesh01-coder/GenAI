@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from mcqgenrator.utils import read_file,get_table_data
 from mcqgenrator.logger import logging
 
+
 #imporing necessary packages packages from langchain
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
