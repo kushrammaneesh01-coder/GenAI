@@ -1,0 +1,11 @@
+prefix=/workspaces/GenAI/conda-env
+exec_prefix=/workspaces/GenAI/conda-env
+libdir=/workspaces/GenAI/conda-env/lib
+includedir=/workspaces/GenAI/conda-env/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.41.3
+Cflags: -I${includedir}/uuid
+Libs.private:  -lpthread
+Libs: -L${libdir} -luuid

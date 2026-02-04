@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: mcqgenrator
+Version: 0.0.1
+Author: Maneesh Kushram
+Author-email: kushrammaneesh01@gmail.com
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: PyPDF2
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file
+Dynamic: requires-dist
